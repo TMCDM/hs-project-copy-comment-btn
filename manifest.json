@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "HubSpot Projects Extension",
+  "version": "1.0",
+  "description": "A Chrome extension for HubSpot Projects",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://app.hubspot.com/projects/*"],
+      "js": ["dist/content.js"]
+    }
+  ]
+}
