@@ -1,5 +1,3 @@
-console.log("Content script loaded");
-
 const addCopyButtons = (): void => {
   const commentsList = document.querySelector(
     ".comments-list"
